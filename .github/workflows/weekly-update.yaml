@@ -2,7 +2,7 @@ name: Weekly Sync with Anchore/Syft
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # 매주 월요일 00:00 UTC == 한국 시간 월요일 오후 9시
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 jobs:
